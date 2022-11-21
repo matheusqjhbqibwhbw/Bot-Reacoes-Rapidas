@@ -21,13 +21,12 @@ Loop 30
 
    Send, {Ctrl Down}w{Ctrl Up}
    Sleep, 120000
-   Run, Chrome.exe //*link do storys*//
+   Run, Chrome.exe https://www.instagram.com/stories/brunoliima019/2975728001384185541/
    Sleep, 8000
    Send, {Tab Down} {Tab Up}
    Sleep, 500
    Send {Enter Down} {Enter Up}
    Send {Tab down}
-   Loop 8
    {
 	Send {Tab down}
 	Sleep 20
